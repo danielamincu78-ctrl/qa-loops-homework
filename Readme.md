@@ -1,12 +1,12 @@
-# Tema folosire bucle (loops)
+# qa-loops-homework
 
-In acest program validam introducerea unui username.  
+![CI](https://github.com/danielamincu78-ctrl/qa-loops-homework/actions/workflows/ci.yml/badge.svg)
 
-Folosim buclele do-while si for pentru implementarea regulilor de validare: 
-- Lungimea: Trebuie să fie între 6 și 12 caractere, inclusiv.
-- Fără Spații: Nu trebuie să conțină spații. Dacă se introduce un username cu spații, programul trebuie să afișeze o eroare specifică și să ceară din nou input (fără a mai verifica celelalte reguli pentru inputul curent).
-- Cifre: Trebuie să conțină cel puțin o cifră (0-9).
-Când un username este corect, afișează mesajul: Username acceptat
+Homework project using loops - Username Validator
 
-
- 
+Un program care valideaza un username. Programul cere in mod repetat utilizatorul sa introduca un username. 
+Folosim bucle do-while si for pentru validarea regulilor:
+- Lungime: trebuie sa aiba intre 6 si 12 caractere inclusiv. 
+- fara spatii: nu contine spatii
+- cifre: trebuie sa contina cel putin o cifra (0-9)
+Cand un username este corect, programul va afisa un mesaj de succes si se opreste.
