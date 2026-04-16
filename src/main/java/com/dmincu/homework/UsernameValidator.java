@@ -1,4 +1,4 @@
-package main.java.com.dmincu.homework;
+package com.dmincu.homework;
 
 import java.util.Scanner;
 
